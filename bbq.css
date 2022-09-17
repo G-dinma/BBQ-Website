@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px) {
+  .container{
+    flex-direction: column wrap;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+}
+
+.container {
+  display: inline-flex;
+  align-content: center;
+}
+
+#header {
+  width: 1000px;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDgwMzU3NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYxOTgzNzQ1Mn0.qGWMaDhsCWyVf5U-AIaoZ2hPSCQU9NKUQOI4fAlQaZU/img.jpg?width=980);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  background-color: #404040;
+  justify-content: space-between;
+ 
+}
+
+.top-text{
+  border-top: 3px solid #f18119;
+  padding-top: 0.2em;
+  font-weight: 900;
+  color: #f18119;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.header-title{
+  color: white;
+  font-weight: 300;
+  padding-top: 10%;
+  font-size: 2.5rem;
+}
+
+.bottom-text {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #f18119;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#main {
+  margin: auto;
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-title {
+  color: #404040;
+  font-weight: bold;
+  align-items: center;
+}
+
+.main-text {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  max-width: 400px;
+}
+
+.main-sub-title {
+  color: #f18119;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+  max-width: 253px;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+input {
+  margin-bottom: 5%;
+}
+
+.btn{
+  background-color: orangered;
+  border-color: #5a5a5a;
+  border-radius: 8px;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  padding: 1em 0;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 1em;
+  font-weight: 900;
+  box-shadow: none;
+}
+
+.btn:hover{
+ color: white;
+ transition: color 2s linear;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  color: #5a5a5a;
+}
